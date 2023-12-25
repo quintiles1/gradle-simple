@@ -34,8 +34,7 @@ wrapper {
 }
 sonar {
     properties {
-        property('sonar.projectName', 'Example of SonarScanner for Gradle Usage')
-        property("sonar.projectKey", "sonar-scanner-gradle")
+        property("sonar.projectKey", "gradle-first-project ")
         property("sonar.login", "admin")
         property("sonar.password", "admin123")
         property("sonar.sources", "src/main")
