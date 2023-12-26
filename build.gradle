@@ -8,15 +8,6 @@ plugins {
 description = 'gradle-first-project'
 version = '1.0'
 
-sonar {
-    properties {
-        property("sonar.projectKey", "gradle2")
-        property("sonar.login", "admin")
-        property("sonar.password", "admin123")
-        property("sonar.sources", "src/main")
-        property "sonar.tests", "src/test"
-    }
-}
 
 // In this section you declare where to find the dependencies of your project
 repositories {
